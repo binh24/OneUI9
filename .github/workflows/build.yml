@@ -10,9 +10,9 @@ on:
           - debug
           - test
           - release
-        default: debug
+        default: test
     branches:
-      - 'sixteen'
+      - 'seventeen'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
