@@ -55,10 +55,15 @@ jobs:
           DEBIAN_FRONTEND=noninteractive sudo apt install -yq \
             attr ccache clang ffmpeg libbrotli-dev libbz2-dev \
             libgtest-dev libprotobuf-dev libunwind-dev libpcre2-dev \
-            libzstd-dev linux-modules-extra-$(uname -r) lld protobuf-compiler webp \
+            libzstd-dev lld protobuf-compiler webp \
             build-essential g++-aarch64-linux-gnu gcc-aarch64-linux-gnu \
             python-is-python3 python3 wget curl
-
+          kernel="$(uname -r)"
+          if (( ${kernel%%.*} < 7 )); then
+            sudo apt-get update
+            sudo apt-get install --yes "linux-modules-extra-${kernel}"
+          fi
+          sudo modprobe vcan
           curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
           source "$HOME/.cargo/env"
 
