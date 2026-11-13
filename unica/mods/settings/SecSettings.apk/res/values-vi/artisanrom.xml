@@ -20,9 +20,9 @@ BenlyROM này được xây dựng dựa trên phiên bản giao diện OneUI 9.
     <string name="maintainer_3_github">Android-Artisan</string>
     <string name="maintainer_3_avatar">artisan_avatar</string>
     
-    <string name="maintainer_4_name">GhasemzadehFard-dev</string>
+    <string name="maintainer_4_name">GMNevz</string>
     <string name="maintainer_4_role">Nhà phát triển r8s</string>
-    <string name="maintainer_4_github">GhasemzadehFard-dev</string>
+    <string name="maintainer_4_github">edugrepo1-jpg</string>
     <string name="maintainer_4_avatar">mohammad_avatar</string>
     
     <string name="maintainer_5_name">Vinsies</string>
@@ -40,8 +40,8 @@ BenlyROM này được xây dựng dựa trên phiên bản giao diện OneUI 9.
     <string name="maintainer_7_github">mrd83</string>
     <string name="maintainer_7_avatar">mrd83_avatar</string>
 
-    <string name="maintainer_8_name">Milena</string>
-    <string name="maintainer_8_role">Nhà phát triển</string>
-    <string name="maintainer_8_github"></string>
+    <string name="maintainer_8_name">Ats0c</string>
+    <string name="maintainer_8_role">Dev oneui 9</string>
+    <string name="maintainer_8_github">At30c</string>
     <string name="maintainer_8_avatar">fishe_avatar</string>
 </resources>
